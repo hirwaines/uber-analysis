@@ -59,6 +59,50 @@ The dashboard is interactive and composed of multiple visuals to uncover meaning
 | **Rides by Passenger Count**   | Bar Chart           | Shows how many passengers were in each ride     |
 | **Slicer Filters**             | Slicer              | Filters by month, weekday, and peak hour        |
 
+
+
+
+<img width="1377" height="705" alt="image" src="https://github.com/user-attachments/assets/057d7acb-16d9-4fac-8ca9-49f70513d862" />
+Dashboard Metadata
+Last saved timestamp shows recent activity (Today at 11:10 PM)
+
+Contains standard Power BI tabs: Home, Insert, Modeling, View, Optimize, Help
+
+Main Components
+Data Acquisition:
+
+Expanded data source options including Excel, OneLake, SQL Server, and Dataverse
+
+"Transform Refresh data" option indicates ETL capabilities
+
+Visualizations:
+
+"Sum of fare amount by hour" chart showing distribution across hours (peaking at 100K)
+
+"Count of key by month" chart displaying monthly trends (ranging 14K-18K)
+
+
+
+<img width="1373" height="923" alt="image" src="https://github.com/user-attachments/assets/4e6b3370-6d2a-4aec-9928-6a646f7301a5" />
+The image shows a hierarchical structure with multiple "Code" sections, suggesting this may represent a Power BI file or similar data analysis tool interface.
+
+The sections appear to categorize different functionalities: data manipulation, data sources, visualization, and filtering.
+
+Key Components
+Data Operations: Includes basic functions like "Cuts", "Copy", and "Format painter", along with data-specific options like "Get data" from various sources (Excel, OneLake, SQL Server).
+
+Visualization Tools: Contains options for creating new visuals, text boxes, and calculations (both visual and measure-based).
+
+Filtering System: Shows filtering capabilities at both page-level and report-level, with fields for adding data filters.
+
+Data Points:
+
+Includes a "Peak_hour" field with binary options (Yes/No)
+
+Shows "Count of key by peak" with values (55.79K) broken down by peak hour status
+
+Displays date range data from "pickup_datetime" (1/1/2009 to 7/1/2015)
+
 ---
 
 ## 🔍 Insights & Analysis
